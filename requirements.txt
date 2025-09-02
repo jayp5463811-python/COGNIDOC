@@ -1,0 +1,35 @@
+# #####################################################################
+# # Project: CogniDoc - Telegram Bot Edition                          #
+# # Description: This file lists all Python dependencies required to  #
+# # run the application.                                              #
+# #####################################################################
+
+# --- Telegram Bot Framework ---
+# The core library for building the Telegram bot and handling messages.
+# The [ext] part includes useful extensions like CommandHandler.
+python-telegram-bot[ext]==21.2
+
+# --- AI & LLM Orchestration ---
+# The main framework for connecting all the different AI components.
+langchain==0.2.10
+langchain-openai==0.1.9
+
+# Provides the API client to interact with OpenAI's LLMs (e.g., GPT-4).
+openai==1.25.0
+
+# --- Vector Embeddings Model ---
+# Converts document text into numerical vectors (embeddings) for searching.
+sentence-transformers==3.0.1
+
+# --- Data Storage & Retrieval (Vector Database) ---
+# Stores the document embeddings for efficient similarity searching.
+chromadb==0.5.3
+
+# --- Document Processing ---
+# Libraries for extracting text from PDF and DOCX files.
+pypdf==4.3.0
+python-docx==1.1.2
+
+# --- Utilities & Configuration ---
+# Manages environment variables from the .env file.
+python-dotenv==1.0.1
