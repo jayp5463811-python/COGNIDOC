@@ -19,7 +19,7 @@ openai
 
 # --- Vector Embeddings Model ---
 # Converts document text into numerical vectors (embeddings) for searching.
-sentence-transformers==3.0.1
+sentence-transformers
 
 # --- Data Storage & Retrieval (Vector Database) ---
 # Stores the document embeddings for efficient similarity searching.
