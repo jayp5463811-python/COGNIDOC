@@ -15,7 +15,7 @@ langchain
 langchain-openai==0.1.9
 
 # Provides the API client to interact with OpenAI's LLMs (e.g., GPT-4).
-openai==1.25.0
+openai
 
 # --- Vector Embeddings Model ---
 # Converts document text into numerical vectors (embeddings) for searching.
