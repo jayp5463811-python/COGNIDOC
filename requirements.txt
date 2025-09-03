@@ -11,7 +11,7 @@ python-telegram-bot[ext]==21.2
 
 # --- AI & LLM Orchestration ---
 # The main framework for connecting all the different AI components.
-langchain==0.2.10
+langchain
 langchain-openai==0.1.9
 
 # Provides the API client to interact with OpenAI's LLMs (e.g., GPT-4).
